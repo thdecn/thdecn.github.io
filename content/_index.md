@@ -1,0 +1,4 @@
+---
+lead: "Writing is thinking"
+---
+
