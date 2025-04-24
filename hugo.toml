@@ -1,7 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://thdecn.github.io/'
 languageCode = 'en-us'
 title = 'Proof of Thought'
-theme = "not-much"
+theme = 'not-much'
 
 [caches]
   [caches.images]
