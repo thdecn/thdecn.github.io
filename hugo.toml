@@ -2,7 +2,39 @@ baseURL = 'https://thdecn.github.io/'
 languageCode = 'en-us'
 title = 'Proof of Thought'
 theme = 'not-much'
+copyright = "thdecn © {year}"
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+theme = "dark"
+showThemeNotice = false
+showPostsSummary = true
+
+
+# Navigation
+# Controls the navigation
+[[menu.main]]
+  identifier = "home"
+  name = "home"
+  title = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "posts"
+  name = "posts"
+  title = "Posts"
+  url = "/posts"
+  weight = 2
+
