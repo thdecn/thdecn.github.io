@@ -25,7 +25,7 @@ We could type alias the existing `i32` to our Baby Bear type as `bb31 = IntegerT
 Knowing our types, we can now define our modular addition operation through its inputs and output, or in MLIR terminology, its arguments and result. 
 Taking inspiration from the `ModArith` IR in [Google’s HEIR project](https://heir.dev/docs/dialects/modarith/), we can define our own modular addition as `mod_arith_bb31.add`. 
 With the xDSL framework, this operation is defined as follows. 
-```
+```python
 @irdl_op_definition
 class ModAddOp(IRDLOperation):
     name = "mod_arith_bb31.add"
@@ -44,7 +44,7 @@ class ModAddOp(IRDLOperation):
 
 To use this operations, we can wrap it in a function, which we then have to wrap in a module. 
 We can write this by hand in MLIR, but we'll use xDSL's `Builder` for simplicity. 
-```
+```python
 # Create a module, and create a builder at its first block
 module = ModuleOp([])
 builder = Builder(InsertPoint.at_end(module.body.block))
@@ -70,7 +70,7 @@ builder.insert(ReturnOp(result))
 ```
 
 The `print(module)` command then gives the following good-looking and readable MLIR code.
-```
+```mlir
 builtin.module {
   func.func @main(%0 : i32, %1 : i32) -> i32 {
     %2 = "mod_arith_bb31.add"(%0, %1) : (i32, i32) -> i32
@@ -84,7 +84,7 @@ We’ll at least have to rewrite this functionality in a different way, and then
 
 # 2. Writing Modular Arithmetic with the Built-in `arith` IR.
 With xDSL's `Builder`, we fill out the functionality of the modular addition operation in terms of basic arithmetic and control flow as follows.
-```
+```python
 # Create a module, and create a builder at its first block
 module_arith = ModuleOp([])
 builder = Builder(InsertPoint.at_end(module_arith.body.block))
@@ -116,7 +116,7 @@ builder.insert(ReturnOp(res_select))
 ```
 
 With `print(module_arith)`, this prints to still readable but definitely more involved, MLIR code.
-```
+```mlir
 builtin.module {
   func.func @main(%0 : i32, %1 : i32) -> i32 {
     %2 = arith.constant 2013265921 : i32
@@ -135,7 +135,7 @@ This domain specification is what allows optimizations to be expressed in the la
 
 # Open Loops
 As the island of knowledge grows, so do the shores of our ignorance, and we're left with some open questions.
- - [ ] How do we generically specify our own modular arithmetic type such that we can configure the modulus?
+ - [X] [How do we generically specify our own modular arithmetic type such that we can configure the modulus?]({{< relref "mlir-01.md" >}})
  - [ ] What are traits in operations?
  - [ ] How do Modules, Blocks, Functions, and Operations relate? What other structures are there? 
  - [ ] How do we lower one module to another? 
