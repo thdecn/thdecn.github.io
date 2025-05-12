@@ -1,6 +1,6 @@
 ---
 title: "Week 19"
-date: 2025-05-05
+date: 2025-05-11
 description: "Running MLIR Code."
 keywords: ["mlir", "modular", "arithmetic", "tech", "blog"]
 draft: false

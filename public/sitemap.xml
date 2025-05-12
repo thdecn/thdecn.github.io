@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:40337/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <loc>https://thdecn.github.io/</loc>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40337/tags/mlir/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <loc>https://thdecn.github.io/tags/mlir/</loc>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40337/posts/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <loc>https://thdecn.github.io/posts/</loc>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40337/tags/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <loc>https://thdecn.github.io/tags/</loc>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40337/posts/mlir-02/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <loc>https://thdecn.github.io/posts/mlir-02/</loc>
+    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40337/posts/mlir-01/</loc>
+    <loc>https://thdecn.github.io/posts/mlir-01/</loc>
     <lastmod>2025-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40337/posts/mlir-00/</loc>
+    <loc>https://thdecn.github.io/posts/mlir-00/</loc>
     <lastmod>2025-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40337/categories/</loc>
+    <loc>https://thdecn.github.io/categories/</loc>
   </url>
 </urlset>
