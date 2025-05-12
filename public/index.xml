@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proof of Thought</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:40337/</link>
     <description>Recent content on Proof of Thought</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>thdecn © {year}</copyright>
-    <lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:40337/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 19</title>
+      <link>http://localhost:40337/posts/mlir-02/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:40337/posts/mlir-02/</guid>
+      <description>Running MLIR Code.</description>
+    </item>
     <item>
       <title>Week 18</title>
-      <link>http://localhost:1313/posts/mlir-01/</link>
+      <link>http://localhost:40337/posts/mlir-01/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mlir-01/</guid>
+      <guid>http://localhost:40337/posts/mlir-01/</guid>
       <description>Specifying a Modular Arithmetic Type in MLIR.</description>
     </item>
     <item>
       <title>Week 17</title>
-      <link>http://localhost:1313/posts/mlir-00/</link>
+      <link>http://localhost:40337/posts/mlir-00/</link>
       <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mlir-00/</guid>
+      <guid>http://localhost:40337/posts/mlir-00/</guid>
       <description>Writing Modular Arithmetic in MLIR.</description>
     </item>
   </channel>

@@ -162,9 +162,9 @@ builtin.module {
 # Open Loops
 The more light we shine, the more shadows we uncover, and we're left with a list of open questions (some rephrased from last week and some new ones).
 
+ - [X] [How do we run our modules?]({{< relref "mlir-02.md" >}})
  - [ ] What are the formal definitions and uses of Modules, Blocks, Regions, SSA Values, Operations, Attributes, Types, and Properties? What other structures are there? 
  - [ ] How do we lower one module to another? 
- - [ ] How do we run our modules? 
  - [ ] <mark>**NEW!**</mark> How do we set default values or default types? 
  - [ ] <mark>**NEW!**</mark> Our `mod_arith.int` type is a bit verbose, can we print a string rather than a value to clarify the prime? 
  - [ ] <mark>**NEW!**</mark> How do we constraint the signedness and canonicalization of the inputs?

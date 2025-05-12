@@ -139,7 +139,7 @@ As the island of knowledge grows, so do the shores of our ignorance, and we're l
  - [ ] What are traits in operations?
  - [ ] How do Modules, Blocks, Functions, and Operations relate? What other structures are there? 
  - [ ] How do we lower one module to another? 
- - [ ] How do we run our modules? 
+ - [X] [How do we run our modules?]({{< relref "mlir-02.md" >}})
 
 # Next-Up
 The first topic we'll be diving into is the generalization of our modulo operation by defining a type where we can set the modulus. 
