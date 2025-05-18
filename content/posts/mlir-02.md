@@ -123,7 +123,7 @@ The test passes after putting in our changes, increasing our confidence that the
 # Open Loops
 With every answer we find, more questions emerge, and we're adding some more open questions to our list. 
 
- - [ ] What are the formal definitions and uses of Modules, Blocks, Regions, SSA Values, Operations, Attributes, Types, and Properties? What other structures are there? 
+ - [X] [What are the formal definitions and uses of Modules, Blocks, Regions, SSA Values, Operations, Attributes, Types, and Properties? What other structures are there?]({{< relref "mlir-03.md" >}})
  - [ ] How do we lower one module to another? 
  - [ ] How do we set default values or default types? 
  - [ ] Our `mod_arith.int` type is a bit verbose, can we print a string rather than a value to clarify the prime? 

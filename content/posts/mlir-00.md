@@ -137,7 +137,7 @@ This domain specification is what allows optimizations to be expressed in the la
 As the island of knowledge grows, so do the shores of our ignorance, and we're left with some open questions.
  - [X] [How do we generically specify our own modular arithmetic type such that we can configure the modulus?]({{< relref "mlir-01.md" >}})
  - [ ] What are traits in operations?
- - [ ] How do Modules, Blocks, Functions, and Operations relate? What other structures are there? 
+ - [X] [How do Modules, Blocks, Functions, and Operations relate? What other structures are there?]({{< relref "mlir-03.md" >}}) 
  - [ ] How do we lower one module to another? 
  - [X] [How do we run our modules?]({{< relref "mlir-02.md" >}})
 
