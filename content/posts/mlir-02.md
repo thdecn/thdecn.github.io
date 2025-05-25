@@ -1,11 +1,11 @@
 ---
-title: "Week 19"
+title: "Running MLIR Code"
 date: 2025-05-11
 description: "Running MLIR Code."
 keywords: ["mlir", "modular", "arithmetic", "tech", "blog"]
 draft: false
 tags: ["mlir"]
-summary: Running MLIR Code.
+summary: Week 19, New York --- Preventing "Garbage In, Garbage Out".
 ---
 
 In our first blog, we intuited that writing modular arithmetic in MLIR's `arith` dialect would have some benefits. 
@@ -124,7 +124,7 @@ The test passes after putting in our changes, increasing our confidence that the
 With every answer we find, more questions emerge, and we're adding some more open questions to our list. 
 
  - [X] [What are the formal definitions and uses of Modules, Blocks, Regions, SSA Values, Operations, Attributes, Types, and Properties? What other structures are there?]({{< relref "mlir-03.md" >}})
- - [ ] How do we lower one module to another? 
+ - [X] [How do we lower one module to another?]({{< relref "mlir-04.md" >}})
  - [ ] How do we set default values or default types? 
  - [ ] Our `mod_arith.int` type is a bit verbose, can we print a string rather than a value to clarify the prime? 
  - [ ] How do we constraint the signedness and canonicalization of the inputs?

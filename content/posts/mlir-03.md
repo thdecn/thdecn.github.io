@@ -5,7 +5,7 @@ description: "Traversing MLIR Code."
 keywords: ["mlir", "modular", "arithmetic", "tech", "blog"]
 draft: false
 tags: ["mlir"]
-summary: Week 20 --- Reading the docs for some theory, Part 1.
+summary: Week 20, San Francisco --- Reading the docs for some theory, Part 1.
 ---
 
 This week, we have a more theory-heavy post. 
@@ -237,7 +237,7 @@ We amassed a good heap of open questions, and are adding a few more this week.
 They are now clustered to keep things organized. 
 
  - **Practical topics.**
- - [ ] How do we lower one module to another? 
+ - [X] [How do we lower one module to another?]({{< relref "mlir-04.md" >}})
  - [ ] <mark>**NEW!**</mark> How do we estimate the performance of a module?
 <br><br>
  - **Small changes.**

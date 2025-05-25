@@ -138,7 +138,7 @@ As the island of knowledge grows, so do the shores of our ignorance, and we're l
  - [X] [How do we generically specify our own modular arithmetic type such that we can configure the modulus?]({{< relref "mlir-01.md" >}})
  - [ ] What are traits in operations?
  - [X] [How do Modules, Blocks, Functions, and Operations relate? What other structures are there?]({{< relref "mlir-03.md" >}}) 
- - [ ] How do we lower one module to another? 
+ - [X] [How do we lower one module to another?]({{< relref "mlir-04.md" >}}) 
  - [X] [How do we run our modules?]({{< relref "mlir-02.md" >}})
 
 # Next-Up
