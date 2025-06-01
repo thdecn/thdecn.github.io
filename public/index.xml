@@ -2,47 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proof of Thought</title>
-    <link>http://localhost:44419/</link>
+    <link>https://thdecn.github.io/</link>
     <description>Recent content on Proof of Thought</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>thdecn © {year}</copyright>
-    <lastBuildDate>Sat, 24 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:44419/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thdecn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expressing a Poseidon Hash in MLIR</title>
+      <link>https://thdecn.github.io/posts/mlir-poseidon-00/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://thdecn.github.io/posts/mlir-poseidon-00/</guid>
+      <description>Week 22, Leuven &amp;mdash; Messing around with a toy application.</description>
+    </item>
     <item>
       <title>Lowering One Dialect to Another</title>
-      <link>http://localhost:44419/posts/mlir-04/</link>
+      <link>https://thdecn.github.io/posts/mlir-04/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44419/posts/mlir-04/</guid>
+      <guid>https://thdecn.github.io/posts/mlir-04/</guid>
       <description>Week 21, San Diego &amp;mdash; Closing the compiler loop.</description>
     </item>
     <item>
       <title>Traversing MLIR Code</title>
-      <link>http://localhost:44419/posts/mlir-03/</link>
+      <link>https://thdecn.github.io/posts/mlir-03/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44419/posts/mlir-03/</guid>
+      <guid>https://thdecn.github.io/posts/mlir-03/</guid>
       <description>Week 20, San Francisco &amp;mdash; Reading the docs for some theory, Part 1.</description>
     </item>
     <item>
       <title>Running MLIR Code</title>
-      <link>http://localhost:44419/posts/mlir-02/</link>
+      <link>https://thdecn.github.io/posts/mlir-02/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44419/posts/mlir-02/</guid>
+      <guid>https://thdecn.github.io/posts/mlir-02/</guid>
       <description>Week 19, New York &amp;mdash; Preventing &amp;ldquo;Garbage In, Garbage Out&amp;rdquo;.</description>
     </item>
     <item>
       <title>Week 18</title>
-      <link>http://localhost:44419/posts/mlir-01/</link>
+      <link>https://thdecn.github.io/posts/mlir-01/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44419/posts/mlir-01/</guid>
+      <guid>https://thdecn.github.io/posts/mlir-01/</guid>
       <description>Specifying a Modular Arithmetic Type in MLIR.</description>
     </item>
     <item>
       <title>Week 17</title>
-      <link>http://localhost:44419/posts/mlir-00/</link>
+      <link>https://thdecn.github.io/posts/mlir-00/</link>
       <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44419/posts/mlir-00/</guid>
+      <guid>https://thdecn.github.io/posts/mlir-00/</guid>
       <description>Writing Modular Arithmetic in MLIR.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://thdecn.github.io/posts/mlir-poseidon-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://thdecn.github.io/posts/mlir-poseidon-01/</guid>
+      <description>&lt;!--&#xA;# 3. A Complaint Session&#xA;to figure out what could be...&#xA; * Function calls would be sweet&#xA; * Digest types would be sweet, i.e. vectors of bb31 -- Is this type aliasing?&#xA; * Extension field as well...&#xA; * What else?&#xA;--&gt;&#xA;&lt;!--# 4. A First A/B Test&#xA;# x. What is Performance? [Part 1]&#xA; - Code size&#xA; - Number of instructions &amp; type of instructions&#xA; - Missing some componenets here, e.g. available registers&#xA; - Compiler concepts, canonicalization, CSE, DCE, ... &#xA;--&gt;&#xA;&lt;!--&#xA; - [ ] How do we estimate the performance of a module? Weights per instruction.&#xA; - [ ] Lower to PTX instructions and ignore register file dimensions,lower to RiscV instructions with LLVM&#xA; - [ ] Dialect for limb based arithmetic? BigInt Checksums plz&#xA; - [ ] Analyze instructions, dependencies, stalls, can I visualize it in a graph?&#xA; - [ ] Roadmap in terms of algorithms and required dialects (types and ops), even in hindsight for e.g. the front page. e.g. poly only becomes important when we do NTTs, but not with hashes. Extension fields when FRI, Trace tables when? I.e. Show a roadmap of dependencies without time info &#xA; - [ ] M3 arith compiler? What is PertaVM? Circom?&#xA; - [ ] Performance metrics, number of instructions? What else? -- Analysis pass -- walking the tree with the for loop in mind&#xA; - [ ] MulAcc instruction&#xA; - [ ] Lazy ModArith&#xA;--&gt;</description>
     </item>
   </channel>
 </rss>
