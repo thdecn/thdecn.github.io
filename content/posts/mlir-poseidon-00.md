@@ -1,6 +1,6 @@
 ---
 title: "Expressing a Poseidon Hash in MLIR"
-date: 2025-05-31
+date: 2025-06-02
 description: "Expressing a Poseidon Hash in MLIR."
 math: true
 keywords: ["mlir", "modular", "arithmetic", "poseidon", "hashing", "zk", "tech", "blog"]
